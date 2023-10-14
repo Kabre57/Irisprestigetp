@@ -17,6 +17,7 @@ import { NavbareComponent } from './layouts/navbare/navbare.component';
     HeaderComponent,
     PreloaderComponent,
     NavbareComponent,
+
   ],
   imports: [
     BrowserModule,
