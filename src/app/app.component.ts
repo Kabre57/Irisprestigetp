@@ -46,7 +46,7 @@ export class AppComponent implements OnInit {
       .subscribe((event) => {
 
 
-        this.loadScript("..assets/js/jquery.min.js");
+        this.loadScript("../assets/js/jquery.min.js");
         this.loadScript("../assets/js/bootstrap.min.js");
         this.loadScript("../assets/js/jquery-plugin-collection.js");
         this.loadScript("../assets/js/script.js");
