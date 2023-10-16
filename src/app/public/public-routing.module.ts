@@ -3,18 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AboutComponent } from './pages/about/about.component';
 import { BlogComponent } from './pages/blog/blog.component';
-
 import { ContactComponent } from './pages/contact/contact.component';
 import { FaqComponent } from './pages/faq/faq.component';
-
 import { HomeComponent } from './pages/home/home.component';
-
 import { PortfolioSingleComponent } from './pages/portfolio-single/portfolio-single.component';
-
-import { ProjectsComponent } from './pages/projects/projects.component';
-
+import { ProjectsComponent } from './pages/projects/projects.component'
 import { ServicesComponent } from './pages/services/services.component';
-
 import { TeamComponent } from './pages/team/team.component';
 import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
 import { PRESTATIONDESERVICEComponent } from './pages/prestation-de-service/prestation-de-service.component';
@@ -24,6 +18,7 @@ import { CONSTRUCTIONComponent } from './pages/construction/construction.compone
 import { REHABILITATIONComponent } from './pages/rehabilitation/rehabilitation.component';
 import { BTPComponent } from './pages/btp/btp.component';
 import { FOURNITUREComponent } from './pages/fourniture/fourniture.component';
+import { MotDGComponent } from './pages/mot-dg/mot-dg.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -43,6 +38,7 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent},
   { path: 'team', component: TeamComponent },
   { path: 'testimonials', component: TestimonialsComponent},
+  { path: 'mot-dg', component: MotDGComponent},
 ];
 
 

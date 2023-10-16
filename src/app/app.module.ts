@@ -9,6 +9,7 @@ import { HeaderComponent } from './layouts/header/header.component';
 import { PreloaderComponent } from './layouts/preloader/preloader.component';
 import { NavbareComponent } from './layouts/navbare/navbare.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +18,7 @@ import { NavbareComponent } from './layouts/navbare/navbare.component';
     HeaderComponent,
     PreloaderComponent,
     NavbareComponent,
+  
 
   ],
   imports: [

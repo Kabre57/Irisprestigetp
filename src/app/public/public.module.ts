@@ -20,7 +20,7 @@ import { REHABILITATIONComponent } from './pages/rehabilitation/rehabilitation.c
 import { BTPComponent } from './pages/btp/btp.component';
 import { FOURNITUREComponent } from './pages/fourniture/fourniture.component';
 import { PRESTATIONDESERVICEComponent } from './pages/prestation-de-service/prestation-de-service.component';
-
+import { MotDGComponent } from './pages/mot-dg/mot-dg.component';
 
 
 
@@ -44,6 +44,7 @@ import { PRESTATIONDESERVICEComponent } from './pages/prestation-de-service/pres
     ServicesComponent,
     TeamComponent,
     TestimonialsComponent,
+    MotDGComponent,
   ],
   imports: [
     CommonModule,
